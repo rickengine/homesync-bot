@@ -41,6 +41,15 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-### Secrets and local sets
+### Secrets and local sets ###
 .env
 local.properties
+qrcode.html
+google-credentials.json
+
+### Terraform ###
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
